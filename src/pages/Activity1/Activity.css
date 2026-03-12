@@ -1,0 +1,141 @@
+.activity-container{
+min-height:100vh;
+padding:20px;
+background:linear-gradient(135deg,#5f7cff,#7a4bd8);
+font-family:Arial;
+}
+
+.activity-title{
+text-align:center;
+color:white;
+font-size:40px;
+margin-bottom:30px;
+}
+
+.activity-card{
+background:#e8e8e8;
+max-width:1000px;
+margin:25px auto;
+padding:25px;
+border-radius:12px;
+}
+
+.activity-heading{
+color:#5f60d9;
+}
+
+.activity-code{
+background:#020a14;
+color:#00ff9c;
+padding:15px;
+border-radius:8px;
+white-space:pre-wrap;
+}
+
+.activity-output{
+background:#0f172a;
+color:white;
+padding:20px;
+border-radius:8px;
+margin-top:10px;
+}
+
+.activity-source{
+display:flex;
+justify-content:center;
+margin-top:15px;
+}
+
+.activity-source-btn{
+background:linear-gradient(to right,#6366f1,#a855f7);
+color:white;
+padding:12px 20px;
+border-radius:8px;
+text-decoration:none;
+}
+
+.activity-back-container{
+display:flex;
+justify-content:center;
+margin-top:30px;
+}
+
+.activity-back-btn{
+background:#10b981;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:8px;
+cursor:pointer;
+}
+
+/* MAIN PAGE BACKGROUND */
+
+.steps-container{
+min-height:100vh;
+padding:40px;
+background:linear-gradient(135deg,#5f7cff,#7a4bd8);
+font-family:Arial, Helvetica, sans-serif;
+display:flex;
+flex-direction:column;
+gap:30px;
+}
+
+
+/* STEP CARD */
+
+.step-card{
+background:#e6e6e6;
+padding:25px 30px;
+border-radius:12px;
+box-shadow:0 8px 16px rgba(0,0,0,0.08);
+}
+
+
+/* STEP TITLE */
+
+.step-title{
+color:#5965e0;
+font-size:26px;
+font-weight:700;
+margin-bottom:15px;
+}
+
+
+/* LIST STYLE */
+
+.step-card ul,
+.step-card ol{
+margin-left:20px;
+line-height:1.8;
+font-size:16px;
+color:#333;
+}
+
+
+/* COMMAND CODE */
+
+.step-code{
+background:#111;
+color:#00ff90;
+padding:6px 12px;
+border-radius:6px;
+font-family:monospace;
+display:inline-block;
+margin-top:6px;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width:768px){
+
+.steps-container{
+padding:20px;
+}
+
+.step-title{
+font-size:22px;
+}
+
+}

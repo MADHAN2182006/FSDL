@@ -18,7 +18,7 @@ function Dashboard() {
       <div className="fsd-dashboard-container">
         <div className="fsd-dashboard-grid">
 
-          <div className="fsd-dashboard-card" onClick={ () => navigate("/Activity1")}>
+          <div className="fsd-dashboard-card" onClick={ () => window.open("https://github.com/MADHAN2182006/Activity1", "_blank")}>
             <h3>Activity 1</h3>
           </div>
 

@@ -4,7 +4,6 @@ import {BrowserRouter , Routes , Route} from 'react-router-dom'
 import './App.css'
 import Experiment1 from './pages/Experiment/Experiment1.jsx'
 import Dashboard from './component/Dashboard.jsx'
-import Activity1 from './pages/Activity1/Activity1.jsx'
 import Experiment2 from './pages/Experiment2/Experiment2.jsx'
 import Experiment3 from './pages/Experiment3/Experiment3.jsx'
 import Experiment4 from './pages/Experiment4/Experiment4.jsx'
@@ -19,6 +18,7 @@ import Experiment12 from './pages/Experiment12/Experiment12.jsx'
 import Experiment13 from './pages/Experiment13/Experiment13.jsx'
 import Experiment14 from './pages/Experiment14/Experiment14.jsx'
 import Experiment15 from './pages/Experiment15/Experiment15.jsx'
+import Activity from './pages/Activity1/Activity.jsx'
 
 function App() {
 
@@ -27,7 +27,7 @@ function App() {
        <BrowserRouter>
          <Routes>
              <Route path='/' element={<Dashboard/>} />
-             <Route path='/Activity1' element={<Activity1/>} />
+             {/* <Route path='/Activity' element={<Activity/>} /> */}
              <Route path='/Experiment1' element={<Experiment1/>} />
              <Route path="/Experiment2" element={<Experiment2/>} />
              <Route path="/Experiment3" element={<Experiment3/>} />
