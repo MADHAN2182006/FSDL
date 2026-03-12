@@ -1,0 +1,271 @@
+/* GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* RESET */
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+/* PAGE */
+.experiment1-page{
+background:linear-gradient(135deg,#667eea,#764ba2);
+min-height:100vh;
+width:100%;
+overflow-x:hidden;
+}
+
+/* HEADER */
+.experiment1-header{
+text-align:center;
+padding:50px 20px;
+color:white;
+}
+
+.experiment1-header-title{
+font-size:38px;
+font-weight:600;
+margin-bottom:10px;
+}
+
+.experiment1-header-description{
+font-size:18px;
+opacity:0.9;
+max-width:700px;
+margin:auto;
+}
+
+/* MAIN CONTAINER */
+
+.experiment1-main-container{
+width:92%;
+max-width:1000px;
+margin:auto;
+display:grid;
+grid-template-columns:1fr;
+gap:25px;
+padding-bottom:40px;
+}
+
+/* CARD */
+
+.experiment1-card,
+.experiment1-practice1-card,
+.experiment1-practice2-card{
+background:#ffffff;
+padding:28px;
+border-radius:14px;
+box-shadow:0 10px 25px rgba(0,0,0,0.15);
+transition:all 0.3s ease;
+word-wrap:break-word;
+}
+
+.experiment1-card:hover{
+transform:translateY(-6px);
+box-shadow:0 15px 30px rgba(0,0,0,0.25);
+}
+
+/* TITLES */
+
+.experiment1-aim-title,
+.experiment1-step1-title,
+.experiment1-step2-title,
+.experiment1-step3-title,
+.experiment1-step4-title,
+.experiment1-practice1-title,
+.experiment1-practice2-title,
+.experiment1-result-title{
+color:#5a4fcf;
+margin-bottom:10px;
+}
+
+/* TEXT */
+
+.experiment1-aim-text,
+.experiment1-result-text{
+line-height:1.7;
+color:#333;
+font-size:15px;
+}
+
+/* LIST */
+
+.experiment1-step1-list,
+.experiment1-step2-list,
+.experiment1-step3-list,
+.experiment1-step4-list{
+margin-left:20px;
+margin-top:10px;
+}
+
+.experiment1-step1-item,
+.experiment1-step2-item,
+.experiment1-step3-item,
+.experiment1-step4-item{
+margin-bottom:8px;
+line-height:1.6;
+color:#333;
+font-size:15px;
+}
+
+/* TERMINAL */
+
+.experiment1-step2-command-terminal,
+.experiment1-step2-output-terminal,
+.experiment1-step3-command-terminal,
+.experiment1-step3-output-terminal,
+.experiment1-step4-command-terminal,
+.experiment1-step4-output-terminal,
+.experiment1-practice1-step1-terminal,
+.experiment1-practice1-step2-terminal,
+.experiment1-practice1-step2-output-terminal,
+.experiment1-practice1-step3-terminal,
+.experiment1-practice1-step3-output-terminal,
+.experiment1-practice2-command-terminal,
+.experiment1-practice2-output-terminal{
+background:#0d1117;
+color:#00ff9d;
+padding:16px;
+border-radius:8px;
+margin-top:12px;
+font-family:Consolas,monospace;
+font-size:14px;
+overflow-x:auto;
+max-width:100%;
+}
+
+/* CODE BLOCK */
+
+pre{
+white-space:pre-wrap;
+word-break:break-word;
+}
+
+/* PRACTICE LIST */
+
+.experiment1-practice2-list{
+margin-left:20px;
+color:#000;
+}
+
+.experiment1-practice2-item{
+margin-bottom:6px;
+}
+
+/* RESULT */
+
+.experiment1-result-card{
+background:#e9fff5;
+border-left:6px solid #00c896;
+}
+
+/* FOOTER */
+
+.experiment1-footer{
+text-align:center;
+padding:20px;
+color:white;
+opacity:0.9;
+}
+
+.experiment1-footer-text{
+font-size:15px;
+}
+
+.experiment1-step2-sample-title,
+.experiment1-step3-sample-title,
+.experiment1-step4-sample-title,
+.experiment1-practice1-step1-title,
+.experiment1-practice1-step2-title,
+.experiment1-practice1-step3-title{
+    padding-top:10px;
+    color:#000 !important;
+}
+
+
+
+/* ===================== */
+/* TABLET RESPONSIVE */
+/* ===================== */
+
+@media (max-width:768px){
+
+.experiment1-header{
+padding:40px 15px;
+}
+
+.experiment1-header-title{
+font-size:30px; 
+}
+
+.experiment1-header-description{
+font-size:16px;
+}
+
+.experiment1-main-container{
+width:95%;
+gap:20px;
+}
+
+.experiment1-card,
+.experiment1-practice1-card,
+.experiment1-practice2-card{
+padding:22px;
+}
+
+}
+
+/* ===================== */
+/* MOBILE RESPONSIVE */
+/* ===================== */
+
+@media (max-width:500px){
+
+.experiment1-header{
+padding:30px 12px;
+}
+
+.experiment1-header-title{
+font-size:24px;
+}
+
+.experiment1-header-description{
+font-size:14px;
+}
+
+.experiment1-main-container{
+width:96%;
+gap:18px;
+}
+
+.experiment1-card,
+.experiment1-practice1-card,
+.experiment1-practice2-card{
+padding:18px;
+border-radius:10px;
+}
+
+.experiment1-step1-item,
+.experiment1-step2-item,
+.experiment1-step3-item,
+.experiment1-step4-item{
+font-size:14px;
+}
+
+.experiment1-aim-text,
+.experiment1-result-text{
+font-size:14px;
+}
+
+.experiment1-step2-command-terminal,
+.experiment1-step2-output-terminal,
+.experiment1-step3-command-terminal,
+.experiment1-step3-output-terminal,
+.experiment1-step4-command-terminal,
+.experiment1-step4-output-terminal{
+font-size:13px;
+}
+
+}

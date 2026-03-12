@@ -1,0 +1,162 @@
+.experiment4-container{
+  min-height:100vh;
+  padding:20px;
+  background:linear-gradient(135deg,#5f7cff,#7a4bd8);
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.experiment4-title{
+  text-align:center;
+  color:white;
+  font-size:40px;
+}
+
+.experiment4-subtitle{
+  text-align:center;
+  color:white;
+  margin-bottom:30px;
+}
+
+.experiment4-card{
+  background:#e8e8e8;
+  max-width:1000px;
+  margin:20px auto;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+.experiment4-heading{
+  color:#5f60d9;
+  margin-bottom:10px;
+}
+
+.experiment4-text{
+  color:#333;
+  line-height:1.7;
+}
+
+.experiment4-list{
+  padding-left:20px;
+  color:#333;
+}
+
+.experiment4-code{
+  background:#020a14;
+  color:#00ff9c;
+  padding:18px;
+  border-radius:8px;
+  margin-top:15px;
+  font-family:monospace;
+  white-space:pre-wrap;
+}
+
+/* Output Container */
+.exp4-output{
+  background:#0f172a;
+  color:white;
+  padding:40px 20px;
+  text-align:center;
+  border-radius:12px;
+  max-width:400px;
+  margin:auto;
+}
+
+/* Buttons */
+.exp4-buttons button{
+  margin:10px;
+  padding:10px 20px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  color:white;
+}
+
+.red-btn{
+  background:red;
+}
+
+.green-btn{
+  background:green;
+}
+
+.blue-btn{
+  background:blue;
+}
+
+.reset-btn{
+  background:gray;
+}
+
+/* Source Code Button */
+.experiment4-source-container{
+  display:flex;
+  justify-content:center;
+  margin-top:15px;
+}
+
+.experiment4-source-btn{
+  background:linear-gradient(to right,#6366f1,#a855f7);
+  color:white;
+  padding:12px 22px;
+  border-radius:8px;
+  text-decoration:none;
+}
+
+/* Result Section */
+.experiment4-result{
+  background:#c9f0d7;
+  max-width:1000px;
+  margin:30px auto;
+  padding:25px;
+  border-radius:12px;
+}
+
+/* Back Button */
+.experiment4-back-container{
+  display:flex;
+  justify-content:center;
+  margin-top:25px;
+}
+
+.experiment4-back-btn{
+  background:linear-gradient(to right,#10b981,#06b6d4);
+  color:white;
+  padding:12px 24px;
+  border-radius:8px;
+  border:none;
+  cursor:pointer;
+}
+
+/* Input Field */
+.exp4-input{
+  width:100%;
+  max-width:300px;
+  padding:12px;
+  margin:15px auto;
+  border-radius:8px;
+  border:none;
+  outline:none;
+  text-align:center;
+  display:block;
+  box-sizing:border-box;
+}
+
+/* Responsive */
+@media (max-width:768px){
+
+  .exp4-input{
+    max-width:220px;
+    font-size:14px;
+  }
+
+}
+
+.exp4-buttons button{
+  transition:transform 0.2s, box-shadow 0.2s;
+}
+
+.exp4-buttons button:hover{
+  transform:scale(1.05);
+  box-shadow:0 5px 15px rgba(0,0,0,0.3);
+}

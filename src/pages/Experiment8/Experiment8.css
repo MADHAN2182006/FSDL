@@ -1,0 +1,270 @@
+/* ================= MAIN CONTAINER ================= */
+
+.experiment8-container{
+min-height:100vh;
+padding:20px;
+background:linear-gradient(135deg,#5f7cff,#7a4bd8);
+font-family:Arial, Helvetica, sans-serif;
+box-sizing:border-box;
+}
+
+
+/* ================= TITLE ================= */
+
+.experiment8-title{
+text-align:center;
+color:white;
+font-size:40px;
+}
+
+.experiment8-subtitle{
+text-align:center;
+color:white;
+margin-bottom:30px;
+}
+
+
+/* ================= CARD ================= */
+
+.experiment8-card{
+background:#e8e8e8;
+width:100%;
+max-width:1000px;
+margin:20px auto;
+padding:25px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+box-sizing:border-box;
+}
+
+
+/* ================= HEADINGS ================= */
+
+.experiment8-heading{
+color:#5f60d9;
+margin-bottom:10px;
+font-size:22px;
+}
+
+
+/* ================= TEXT ================= */
+
+.experiment8-text{
+color:#333;
+line-height:1.7;
+font-size:16px;
+}
+
+
+/* ================= LIST ================= */
+
+.experiment8-list{
+padding-left:20px;
+color:#333;
+}
+
+.experiment8-list li{
+margin-bottom:8px;
+}
+
+
+/* ================= CODE BLOCK ================= */
+
+.experiment8-code{
+background:#020a14;
+color:#00ff9c;
+padding:18px;
+border-radius:8px;
+margin-top:15px;
+font-family:monospace;
+font-size:14px;
+white-space:pre-wrap;
+overflow:auto;
+}
+
+
+/* ================= SAMPLE OUTPUT ================= */
+
+.exp8-output{
+background:#0f172a;
+color:white;
+padding:40px;
+border-radius:12px;
+max-width:420px;
+margin:auto;
+text-align:center;
+}
+
+
+/* ================= COUNTER DISPLAY ================= */
+
+.exp8-count{
+font-size:50px;
+margin:20px 0;
+color:#38bdf8;
+}
+
+
+/* ================= BUTTONS ================= */
+
+.exp8-buttons{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:10px;
+margin-top:15px;
+}
+
+.exp8-inc{
+background:#22c55e;
+color:white;
+border:none;
+padding:10px 18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.exp8-dec{
+background:#ef4444;
+color:white;
+border:none;
+padding:10px 18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.exp8-reset{
+background:#6366f1;
+color:white;
+border:none;
+padding:10px 18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+/* ================= SOURCE BUTTON ================= */
+
+.experiment8-source-container{
+display:flex;
+justify-content:center;
+margin-top:15px;
+}
+
+.experiment8-source-btn{
+text-decoration:none;
+background:linear-gradient(to right,#6366f1,#a855f7);
+color:white;
+padding:12px 22px;
+border-radius:8px;
+font-weight:600;
+transition:0.3s;
+}
+
+.experiment8-source-btn:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* ================= RESULT SECTION ================= */
+
+.experiment8-result{
+background:#c9f0d7;
+max-width:1000px;
+margin:30px auto;
+padding:25px;
+border-radius:12px;
+}
+
+.experiment8-result p{
+color:#333;
+}
+
+
+/* ================= BACK BUTTON ================= */
+
+.experiment8-back-container{
+display:flex;
+justify-content:center;
+margin-top:25px;
+}
+
+.experiment8-back-btn{
+background:linear-gradient(to right,#10b981,#06b6d4);
+border:none;
+color:white;
+padding:12px 24px;
+border-radius:8px;
+cursor:pointer;
+font-weight:600;
+transition:0.3s;
+}
+
+.experiment8-back-btn:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width:768px){
+
+.experiment8-container{
+padding:10px;
+}
+
+.experiment8-card{
+padding:15px;
+margin:15px 0;
+}
+
+.exp8-output{
+padding:25px 15px;
+max-width:100%;
+}
+
+.exp8-count{
+font-size:40px;
+}
+
+.exp8-buttons{
+flex-direction:column;
+}
+
+.exp8-buttons button{
+width:100%;
+}
+
+}
+
+.exp8-title{
+margin-bottom:10px;
+}
+
+.exp8-status{
+color:#cbd5e1;
+margin-bottom:10px;
+}
+
+.exp8-info{
+margin-top:15px;
+font-size:14px;
+color:#cbd5e1;
+}
+
+.exp8-progress-container{
+width:100%;
+height:8px;
+background:#1e293b;
+border-radius:6px;
+margin-top:15px;
+}
+
+.exp8-progress-bar{
+width:60%;
+height:8px;
+background:#38bdf8;
+border-radius:6px;
+}

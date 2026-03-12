@@ -1,0 +1,303 @@
+/* MAIN CONTAINER */
+
+.experiment7-container{
+  min-height:100vh;
+  padding:20px;
+  background:linear-gradient(135deg,#5f7cff,#7a4bd8);
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing:border-box;
+}
+
+
+/* TITLE */
+
+.experiment7-title{
+  text-align:center;
+  color:white;
+  font-size:40px;
+}
+
+.experiment7-subtitle{
+  text-align:center;
+  color:white;
+  margin-bottom:30px;
+}
+
+
+/* CARD */
+
+.experiment7-card{
+  background:#e8e8e8;
+  width:100%;
+  max-width:1000px;
+  margin:20px auto;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+
+/* HEADINGS */
+
+.experiment7-heading{
+  color:#5f60d9;
+  margin-bottom:10px;
+  font-size:22px;
+}
+
+
+/* TEXT */
+
+.experiment7-text{
+  color:#333;
+  line-height:1.7;
+}
+
+
+/* LIST */
+
+.experiment7-list{
+  padding-left:20px;
+  color:#333;
+}
+
+.experiment7-list li{
+  margin-bottom:8px;
+}
+
+
+/* CODE BLOCK */
+
+.experiment7-code{
+  background:#020a14;
+  color:#00ff9c;
+  padding:18px;
+  border-radius:8px;
+  margin-top:15px;
+  font-family:monospace;
+  font-size:14px;
+  white-space:pre-wrap;
+}
+
+
+/* SAMPLE OUTPUT */
+
+.exp7-output{
+  background:#0f172a;
+  color:white;
+  padding:40px;
+  border-radius:12px;
+  max-width:450px;
+  margin:auto;
+  text-align:center;
+}
+
+
+/* TEXTAREA */
+
+.exp7-textarea{
+  width:100%;
+  max-width:350px;
+  height:100px;
+  padding:10px;
+  border-radius:8px;
+  border:none;
+  margin-top:10px;
+}
+
+
+/* BUTTONS */
+
+.exp7-btn-box{
+  margin-top:15px;
+}
+
+.exp7-save-btn{
+  background:#6366f1;
+  border:none;
+  color:white;
+  padding:10px 18px;
+  margin:5px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.exp7-clear-btn{
+  background:#ef4444;
+  border:none;
+  color:white;
+  padding:10px 18px;
+  margin:5px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+
+/* NOTES DISPLAY */
+
+.exp7-notes{
+  margin-top:20px;
+  text-align:left;
+  max-width:350px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.exp7-notes p{
+  background:white;
+  color:black;
+  padding:8px;
+  border-radius:6px;
+  margin-top:8px;
+}
+
+
+/* ADVANCED NOTE CARD */
+
+.exp7-note-card{
+  background:white;
+  color:black;
+  padding:10px;
+  border-radius:8px;
+  margin-top:10px;
+  text-align:left;
+}
+
+.exp7-note-card small{
+  color:#666;
+}
+
+
+/* SOURCE BUTTON */
+
+.experiment7-source-container{
+  display:flex;
+  justify-content:center;
+  margin-top:15px;
+}
+
+.experiment7-source-btn{
+  text-decoration:none;
+  background:linear-gradient(to right,#6366f1,#a855f7);
+  color:white;
+  padding:12px 22px;
+  border-radius:8px;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.experiment7-source-btn:hover{
+  transform:scale(1.05);
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* RESULT */
+
+.experiment7-result{
+  background:#c9f0d7;
+  max-width:1000px;
+  margin:30px auto;
+  padding:25px;
+  border-radius:12px;
+}
+
+.experiment7-result p{
+  color:#333;
+}
+
+
+/* BACK BUTTON */
+
+.experiment7-back-container{
+  display:flex;
+  justify-content:center;
+  margin-top:25px;
+}
+
+.experiment7-back-btn{
+  background:linear-gradient(to right,#10b981,#06b6d4);
+  border:none;
+  color:white;
+  padding:12px 24px;
+  border-radius:8px;
+  cursor:pointer;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.experiment7-back-btn:hover{
+  transform:scale(1.05);
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width:768px){
+
+  .experiment7-container{
+    padding:10px;
+  }
+
+  .experiment7-card{
+    padding:15px;
+    margin:15px 0;
+  }
+
+  .exp7-output{
+    padding:25px 15px;
+  }
+
+  .exp7-textarea{
+    max-width:100%;
+  }
+
+  .exp7-notes{
+    max-width:100%;
+  }
+
+}
+
+
+/* EXTRA UI */
+
+.exp7-title{
+  margin-bottom:15px;
+}
+
+.exp7-search{
+  width:100%;
+  max-width:350px;
+  padding:8px;
+  margin-top:15px;
+  border-radius:6px;
+  border:none;
+}
+
+.exp7-note-card{
+  background:white;
+  color:black;
+  padding:12px;
+  border-radius:8px;
+  margin-top:10px;
+  position:relative;
+}
+
+.exp7-note-card small{
+  display:block;
+  margin-top:5px;
+  color:#666;
+}
+
+.exp7-delete-btn{
+  position:absolute;
+  right:10px;
+  top:10px;
+  background:red;
+  color:white;
+  border:none;
+  padding:5px 10px;
+  border-radius:5px;
+  cursor:pointer;
+}

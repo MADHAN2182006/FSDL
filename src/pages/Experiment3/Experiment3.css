@@ -1,0 +1,383 @@
+/* =====================================================
+   EXPERIMENT 3 PAGE STYLES
+   ===================================================== */
+
+
+/* ================= MAIN CONTAINER ================= */
+
+.experiment3-container {
+  min-height: 100vh;
+  padding: 20px;
+  background: linear-gradient(135deg,#5f7cff,#7a4bd8);
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+
+/* ================= PAGE TITLE ================= */
+
+.experiment3-title {
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+
+.experiment3-subtitle {
+  text-align: center;
+  color: white;
+  margin-bottom: 30px;
+}
+
+
+/* ================= CARD DESIGN ================= */
+
+.experiment3-card {
+  background: #e8e8e8;
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  box-sizing: border-box;
+}
+
+
+/* ================= HEADINGS ================= */
+
+.experiment3-heading {
+  color: #5f60d9;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+
+/* ================= TEXT ================= */
+
+.experiment3-text {
+  color: #333;
+  line-height: 1.7;
+  font-size: 16px;
+}
+
+
+/* ================= LIST ================= */
+
+.experiment3-list {
+  padding-left: 20px;
+  color: #333;
+}
+
+.experiment3-list li {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+
+/* ================= CODE BLOCK ================= */
+
+.experiment3-code {
+  background: #020a14;
+  color: #00ff9c;
+  padding: 18px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-family: monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+}
+
+
+/* ================= RESULT SECTION ================= */
+
+.experiment3-result {
+  background: #c9f0d7;
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 25px;
+  border-radius: 12px;
+}
+
+.experiment3-result p {
+  color: #333;
+}
+
+
+/* =====================================================
+   SAMPLE OUTPUT SECTION
+   ===================================================== */
+
+.exp3-output {
+  margin-top: 20px;
+  background: #0f172a;
+  color: white;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.exp3-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #020617;
+  flex-wrap: wrap;
+}
+
+.exp3-logo {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.exp3-logo span {
+  color: #38bdf8;
+}
+
+.exp3-nav-links {
+  display: flex;
+  list-style: none;
+  gap: 18px;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ================= HERO ================= */
+
+.exp3-hero {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.exp3-hero span {
+  color: #38bdf8;
+}
+
+.exp3-subtitle {
+  color: #38bdf8;
+  margin-top: 8px;
+}
+
+.exp3-desc {
+  margin-top: 10px;
+  color: #cbd5e1;
+}
+
+.exp3-btn {
+  margin-top: 15px;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  background: #38bdf8;
+  color: #0b1224;
+  cursor: pointer;
+}
+
+
+/* ================= SECTION ================= */
+
+.exp3-section {
+  padding: 30px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.exp3-section h2 {
+  margin-bottom: 10px;
+}
+
+.exp3-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.exp3-section li {
+  padding: 5px 0;
+}
+
+
+/* ================= SKILLS ================= */
+
+.exp3-skill-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+  gap: 12px;
+  margin-top: 10px;
+}
+
+.exp3-skill-card {
+  padding: 10px;
+  text-align: center;
+  background: rgba(255,255,255,0.1);
+  border-radius: 8px;
+}
+
+
+/* ================= PROJECTS ================= */
+
+.exp3-project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.exp3-project-card {
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+/* ================= EDUCATION ================= */
+
+.exp3-edu-card {
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+/* ================= CONTACT ================= */
+
+.exp3-contact-flex {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.exp3-contact-card {
+  flex: 1;
+  min-width: 220px;
+  background: rgba(255,255,255,0.1);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.exp3-contact-card input,
+.exp3-contact-card textarea {
+  width: 100%;
+  margin-top: 8px;
+  padding: 8px;
+  border: none;
+  border-radius: 6px;
+}
+
+
+/* ================= FOOTER ================= */
+
+.exp3-footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+}
+
+
+/* =====================================================
+   SOURCE CODE BUTTON
+   ===================================================== */
+
+.experiment3-source-container {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.experiment3-source-btn {
+  text-decoration: none;
+  background: linear-gradient(to right,#6366f1,#a855f7);
+  color: white;
+  padding: 12px 22px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.experiment3-source-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* ================= BACK BUTTON ================= */
+
+.experiment3-back-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.experiment3-back-btn {
+  text-decoration: none;
+  background: linear-gradient(to right,#10b981,#06b6d4);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: 0.3s;
+  border: none;
+  cursor: pointer;
+}
+
+.experiment3-back-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* =====================================================
+   MOBILE RESPONSIVE
+   ===================================================== */
+
+@media (max-width:768px) {
+
+  .experiment3-container {
+    padding: 10px;
+  }
+
+  .experiment3-card {
+    padding: 15px;
+    margin: 15px 0;
+  }
+
+  .experiment3-title {
+    font-size: 28px;
+  }
+
+  .experiment3-heading {
+    font-size: 18px;
+  }
+
+  .experiment3-text {
+    font-size: 14px;
+  }
+
+  .exp3-hero {
+    padding: 40px 15px;
+  }
+
+  .exp3-section {
+    padding: 20px;
+  }
+
+  .exp3-nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .exp3-nav-links {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .exp3-nav-links li {
+    width: 100%;
+    text-align: center;
+  }
+
+}

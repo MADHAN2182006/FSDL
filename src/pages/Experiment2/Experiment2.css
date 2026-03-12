@@ -1,0 +1,304 @@
+/* =====================================================
+   EXPERIMENT 2 PAGE STYLES
+   ===================================================== */
+
+
+/* ================= MAIN CONTAINER ================= */
+
+.experiment2-container{
+  min-height:100vh;
+  padding:20px;
+  background:linear-gradient(135deg,#5f7cff,#7a4bd8);
+  font-family:Arial, Helvetica, sans-serif;
+  box-sizing:border-box;
+}
+
+
+/* ================= PAGE TITLE ================= */
+
+.experiment2-title{
+  text-align:center;
+  color:white;
+  font-size:40px;
+}
+
+.experiment2-subtitle{
+  text-align:center;
+  color:white;
+  margin-bottom:30px;
+}
+
+
+/* ================= CARD DESIGN ================= */
+
+.experiment2-card{
+  background:#e8e8e8;
+  width:100%;
+  max-width:1000px;
+  margin:20px auto;
+  padding:25px;
+  border-radius:12px;
+  box-shadow:0 10px 25px rgba(0,0,0,0.2);
+  box-sizing:border-box;
+}
+
+
+/* ================= HEADINGS ================= */
+
+.experiment2-heading{
+  color:#5f60d9;
+  margin-bottom:10px;
+  font-size:22px;
+}
+
+
+/* ================= TEXT ================= */
+
+.experiment2-text{
+  color:#333;
+  line-height:1.7;
+  font-size:16px;
+}
+
+
+/* ================= LIST ================= */
+
+.experiment2-list{
+  padding-left:20px;
+  color:#333;
+}
+
+.experiment2-list-item{
+  margin-bottom:8px;
+}
+
+
+/* ================= CODE BLOCK ================= */
+
+.experiment2-code{
+  background:#020a14;
+  color:#00ff9c;
+  padding:18px;
+  border-radius:8px;
+  margin-top:15px;
+  font-family:monospace;
+  font-size:14px;
+  white-space:pre-wrap;
+}
+
+.experiment2-large-code{
+  max-height:400px;
+  overflow:auto;
+}
+
+
+/* ================= RESULT SECTION ================= */
+
+.experiment2-result{
+  background:#c9f0d7;
+  max-width:1000px;
+  margin:30px auto;
+  padding:25px;
+  border-radius:12px;
+}
+
+.experiment2-result p{
+  color:#333;
+}
+
+
+/* =====================================================
+   SAMPLE OUTPUT SECTION
+   ===================================================== */
+
+.experiment2-output{
+  margin-top:20px;
+  background:#0f172a;
+  color:white;
+  border-radius:12px;
+  overflow:hidden;
+}
+
+
+/* ================= NAVBAR ================= */
+
+.exp2-nav{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 20px;
+  background:#020617;
+}
+
+.exp2-nav-links{
+  display:flex;
+  list-style:none;
+  gap:20px;
+  padding:0;
+  margin:0;
+}
+
+
+/* ================= HERO SECTION ================= */
+
+.exp2-hero{
+  text-align:center;
+  padding:60px 20px;
+}
+
+.exp2-hero-title{
+  font-size:40px;
+  background:linear-gradient(to right,#818cf8,#c084fc);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.exp2-hero-text{
+  margin-top:10px;
+  margin-bottom:20px;
+}
+
+
+/* ================= BUTTON ================= */
+
+.exp2-btn{
+  background:linear-gradient(to right,#6366f1,#a855f7);
+  border:none;
+  padding:10px 20px;
+  color:white;
+  border-radius:8px;
+  cursor:pointer;
+}
+
+
+/* ================= PRODUCT GRID ================= */
+
+.exp2-products{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:20px;
+  padding:30px;
+}
+
+.exp2-product-card{
+  background:rgba(255,255,255,0.1);
+  padding:20px;
+  border-radius:10px;
+}
+
+.exp2-price{
+  color:#4ade80;
+  margin:10px 0;
+}
+
+
+/* ================= TABLE ================= */
+
+.exp2-table-box{
+  padding:20px;
+  overflow-x:auto;
+}
+
+.exp2-table{
+  width:100%;
+  border-collapse:collapse;
+}
+
+.exp2-table th,
+.exp2-table td{
+  padding:10px;
+  border-bottom:1px solid rgba(255,255,255,0.2);
+}
+
+.exp2-table th{
+  color:#a855f7;
+}
+
+
+/* =====================================================
+   SOURCE CODE BUTTON
+   ===================================================== */
+
+.experiment2-source-container{
+  margin-top:15px;
+  display:flex;
+  justify-content:center;
+}
+
+.experiment2-source-btn{
+  text-decoration:none;
+  background:linear-gradient(to right,#6366f1,#a855f7);
+  color:white;
+  padding:12px 22px;
+  border-radius:8px;
+  font-weight:600;
+  transition:0.3s;
+}
+
+.experiment2-source-btn:hover{
+  transform:scale(1.05);
+  box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* =====================================================
+   MOBILE RESPONSIVE
+   ===================================================== */
+
+@media (max-width:768px){
+
+  /* container padding */
+
+  .experiment2-container{
+    padding:10px;
+  }
+
+  /* card spacing */
+
+  .experiment2-card{
+    padding:15px;
+    margin:15px 0;
+  }
+
+  /* navbar layout */
+
+  .exp2-nav{
+    flex-direction:column;
+    gap:10px;
+  }
+
+  .exp2-nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
+    font-size:14px;
+  }
+
+  /* hero */
+
+  .exp2-hero{
+    padding:40px 15px;
+  }
+
+  .exp2-hero-title{
+    font-size:28px;
+  }
+
+  /* product grid */
+
+  .exp2-products{
+    grid-template-columns:1fr;
+    padding:15px;
+  }
+
+  .exp2-product-card{
+    padding:15px;
+  }
+
+  /* table text */
+
+  .exp2-table th,
+  .exp2-table td{
+    font-size:13px;
+  }
+
+}

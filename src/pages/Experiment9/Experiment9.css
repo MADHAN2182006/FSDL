@@ -1,0 +1,372 @@
+/* ================= MAIN CONTAINER ================= */
+
+.experiment9-container{
+min-height:100vh;
+padding:20px;
+background:linear-gradient(135deg,#5f7cff,#7a4bd8);
+font-family:Arial, Helvetica, sans-serif;
+box-sizing:border-box;
+}
+
+
+/* ================= TITLE ================= */
+
+.experiment9-title{
+text-align:center;
+color:white;
+font-size:40px;
+}
+
+.experiment9-subtitle{
+text-align:center;
+color:white;
+margin-bottom:30px;
+}
+
+
+/* ================= CARD ================= */
+
+.experiment9-card{
+background:#e8e8e8;
+width:100%;
+max-width:1000px;
+margin:20px auto;
+padding:25px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+box-sizing:border-box;
+}
+
+
+/* ================= HEADINGS ================= */
+
+.experiment9-heading{
+color:#5f60d9;
+margin-bottom:10px;
+font-size:22px;
+}
+
+
+/* ================= TEXT ================= */
+
+.experiment9-text{
+color:#333;
+line-height:1.7;
+font-size:16px;
+}
+
+
+/* ================= LIST ================= */
+
+.experiment9-list{
+padding-left:20px;
+color:#333;
+}
+
+.experiment9-list li{
+margin-bottom:8px;
+}
+
+
+/* ================= CODE BLOCK ================= */
+
+.experiment9-code{
+background:#020a14;
+color:#00ff9c;
+padding:18px;
+border-radius:8px;
+margin-top:15px;
+font-family:monospace;
+font-size:14px;
+white-space:pre-wrap;
+overflow:auto;
+}
+
+
+/* ================= SAMPLE OUTPUT ================= */
+
+.exp9-output{
+background:#0f172a;
+color:white;
+padding:40px;
+border-radius:12px;
+max-width:700px;
+margin:auto;
+text-align:center;
+}
+
+
+/* ================= PRODUCT GRID ================= */
+
+.exp9-products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+gap:15px;
+margin-top:20px;
+}
+
+
+/* ================= PRODUCT CARD ================= */
+
+.exp9-product-card{
+background:white;
+color:black;
+padding:15px;
+border-radius:8px;
+box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+
+/* ================= CONTROL BUTTONS ================= */
+
+.exp9-controls{
+margin-top:15px;
+display:flex;
+justify-content:center;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.exp9-controls button{
+background:#6366f1;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+/* ================= SOURCE BUTTON ================= */
+
+.experiment9-source-container{
+display:flex;
+justify-content:center;
+margin-top:15px;
+}
+
+.experiment9-source-btn{
+text-decoration:none;
+background:linear-gradient(to right,#6366f1,#a855f7);
+color:white;
+padding:12px 22px;
+border-radius:8px;
+font-weight:600;
+transition:0.3s;
+}
+
+.experiment9-source-btn:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* ================= RESULT SECTION ================= */
+
+.experiment9-result{
+background:#c9f0d7;
+max-width:1000px;
+margin:30px auto;
+padding:25px;
+border-radius:12px;
+}
+
+.experiment9-result p{
+color:#333;
+}
+
+
+/* ================= BACK BUTTON ================= */
+
+.experiment9-back-container{
+display:flex;
+justify-content:center;
+margin-top:25px;
+}
+
+.experiment9-back-btn{
+background:linear-gradient(to right,#10b981,#06b6d4);
+border:none;
+color:white;
+padding:12px 24px;
+border-radius:8px;
+cursor:pointer;
+font-weight:600;
+transition:0.3s;
+}
+
+.experiment9-back-btn:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+
+/* ================= MOBILE RESPONSIVE ================= */
+
+@media (max-width:768px){
+
+.experiment9-container{
+padding:10px;
+}
+
+.experiment9-card{
+padding:15px;
+margin:15px 0;
+}
+
+.exp9-output{
+padding:25px 15px;
+max-width:100%;
+}
+
+.exp9-products{
+grid-template-columns:1fr;
+}
+
+.exp9-controls{
+flex-direction:column;
+}
+
+.exp9-controls button{
+width:100%;
+}
+
+}
+
+.exp9-title{
+margin-bottom:15px;
+}
+
+/* PRODUCT IMAGE */
+
+.exp9-product-img{
+width:100%;
+height:120px;
+object-fit:contain;
+margin-bottom:10px;
+}
+
+/* PRODUCT CATEGORY */
+
+.exp9-category{
+font-size:13px;
+color:#666;
+}
+
+/* PRODUCT PRICE */
+
+.exp9-price{
+font-weight:bold;
+margin-top:5px;
+}
+
+/* RATING */
+
+.exp9-rating{
+color:#facc15;
+margin-top:5px;
+}
+
+/* CART BUTTON */
+
+.exp9-cart-btn{
+background:#6366f1;
+color:white;
+border:none;
+padding:8px 12px;
+margin-top:10px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.exp9-cart-btn:hover{
+background:#4f46e5;
+}
+
+.exp9-product-img{
+width:100%;
+height:120px;
+object-fit:contain;
+margin-bottom:10px;
+}
+
+/* SEARCH */
+
+.exp9-search{
+padding:8px;
+border-radius:6px;
+border:none;
+width:150px;
+}
+
+/* SORT DROPDOWN */
+
+.exp9-sort{
+padding:8px;
+border-radius:6px;
+border:none;
+}
+
+/* FILTER BUTTON */
+
+.exp9-filter-btn{
+background:#6366f1;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:6px;
+cursor:pointer;
+}
+
+/* PRODUCT IMAGE */
+
+.exp9-product-img{
+width:100%;
+height:120px;
+object-fit:contain;
+margin-bottom:10px;
+}
+
+/* CATEGORY */
+
+.exp9-category{
+font-size:13px;
+color:#666;
+}
+
+/* PRICE */
+
+.exp9-price{
+font-weight:bold;
+margin-top:5px;
+}
+
+/* RATING */
+
+.exp9-rating{
+color:#facc15;
+margin-top:5px;
+}
+
+/* CART BUTTON */
+
+.exp9-cart-btn{
+background:#22c55e;
+color:white;
+border:none;
+padding:8px 12px;
+margin-top:10px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.exp9-cart-btn:hover{
+background:#16a34a;
+}
+
+.exp9-product-img{
+width:100%;
+height:120px;
+object-fit:contain;
+margin-bottom:10px;
+}
