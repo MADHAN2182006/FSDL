@@ -58,19 +58,19 @@ function Dashboard() {
           <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment10")}>
             <h3>Experiment 10</h3>
           </div>
-          <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment3")}>
+          <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment11")}>
             <h3>Experiment 11</h3>
           </div>
-          <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment3")}>
+          <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment12")}>
             <h3>Experiment 12</h3>
           </div>
-          <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment3")}>
+          <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment13")}>
             <h3>Experiment 13</h3>
           </div>
-          <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment3")}>
+          <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment14")}>
             <h3>Experiment 14</h3>
           </div>
-          <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment3")}>
+          <div className="fsd-dashboard-card" onClick={() => navigate("/Experiment15")}>
             <h3>Experiment 15</h3>
           </div>
 
